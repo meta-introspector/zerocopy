@@ -10,7 +10,7 @@
 # paths that are stable regardless of the path to the repository root. This
 # avoids issues like:
 # https://github.com/dtolnay/trybuild/issues/207#issuecomment-131227.594
-[workspace]
+#[workspace]
 
 [package]
 edition = "2021"
@@ -22,7 +22,7 @@ categories = ["embedded", "encoding", "no-std::no-alloc", "parsing", "rust-patte
 keywords = ["cast", "convert", "transmute", "transmutation", "type-punning"]
 license = "BSD-2-Clause OR Apache-2.0 OR MIT"
 repository = "https://github.com/google/zerocopy"
-rust-version = "1.56.0"
+# rust-version = "1.56.0"
 
 exclude = [".*"]
 
