@@ -22,10 +22,12 @@ lock_api = "=0.4.11"
 # Pin to 2.5.0 because more recent versions require a Rust version more recent
 # than our MSRV.
 memchr = "=2.5.0"
-parking_lot = "=0.12.1"
+#parking_lot = "=0.12.1"
+parking_lot = {workspace=true]
 # Pin to 0.9.10 because more recent versions require a Rust version more recent
 # than our MSRV.
-parking_lot_core = "=0.9.10"
+#parking_lot_core = "=0.9.10"
+parking_lot = {workspace=true}
 rustc_version = "0.4.0"
 # Pin to 0.3.0 because more recent versions require a Rust version more recent
 # than our MSRV.
